@@ -5,3 +5,8 @@ table {
   border-color:#000000;
   background-color:#FFFFFF;
 }
+
+#banner {
+	width: 90%;
+	margin-top: -40px;
+}
