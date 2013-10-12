@@ -3,26 +3,30 @@
 <head>
 <title>Submit Event</title>
 <link rel="stylesheet" href="styles.css"/>
-<h1 align="center">Submit Event</h1>
+<h1>Submit Event</h1>
 </head>
 <body>
 
+<?php 
+	$netid = $_GET["netid"];
+?>
+
+<h2> Welcome <?php echo $netid ?>!</h2>
+<p>Fill out the form exactly as specified!</p>
+<p>All fields are required!</p>
 
 <form action="databaseentry.php" method="post">
-  Date:<input type="text" name="date"><br>
-  Time:<input type="text" name="time"><br>
+  Date (yyyy-mm-dd):<input type="text" name="date"><br>
+  Time (12:00pm):<input type="text" name="time"><br>
   Speaker:<input type="text" name="speaker"><br>
   Lecture Subject:<input type="text" name="subject"><br>
-  Dept.:<input type="text" name="dept"><br>
+  Department:<input type="text" name="dept"><br>
   Location:<input type="text" name="location"><br>
-  Contact email:<input type="text" name="email"><br>
+  Contact:<input type="text" name="email" value="<?php echo $netid ?>@u.rochester.edu"><br>
   Other details:<input type="text" name="details"><br>
   
   <input type="submit" value="Submit">
 </form>
-
-
-
 
 </body>
 </html>
