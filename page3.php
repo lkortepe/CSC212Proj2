@@ -16,14 +16,14 @@
 <p>All fields are required!</p>
 
 <form action="databaseentry.php" method="post">
-  Date (yyyy-mm-dd):<input type="text" name="date"><br>
-  Time (12:00pm):<input type="text" name="time"><br>
-  Speaker:<input type="text" name="speaker"><br>
-  Lecture Subject:<input type="text" name="subject"><br>
-  Department:<input type="text" name="dept"><br>
-  Location:<input type="text" name="location"><br>
-  Contact:<input type="text" name="email" value="<?php echo $netid ?>@u.rochester.edu"><br>
-  Other details:<input type="text" name="details"><br>
+  Date (yyyy-mm-dd):<input type="text" name="date" required><br>
+  Time (12:00pm):<input type="text" name="time" required><br>
+  Speaker:<input type="text" name="speaker" required><br>
+  Lecture Subject:<input type="text" name="subject" required><br>
+  Department:<input type="text" name="dept" required><br>
+  Location:<input type="text" name="location" required><br>
+  Contact:<input type="text" name="email" value="<?php echo $netid ?>@u.rochester.edu" required><br>
+  Other details:<input type="text" name="details" required><br>
   
   <input type="submit" value="Submit">
 </form>
