@@ -8,7 +8,7 @@
 <body>
 
 <?php 
-	$netid = $_GET["netid"];
+	$netid = $_POST["netid"];
 ?>
 
 <h2> Welcome <?php echo $netid ?>!</h2>
@@ -17,7 +17,7 @@
 
 <form action="databaseentry.php" method="post">
   Date (yyyy-mm-dd):<input pattern=".{10,}" type="text" name="date" required><br>
-  Time (12:00pm):<input pattern=".{7,}" type="text" name="time" required><br>
+  Time (02:00pm):<input pattern=".{7,}" type="text" name="time" required><br>
   Speaker:<input type="text" name="speaker" required><br>
   Lecture Subject:<input type="text" name="subject" required><br>
   Department:<input type="text" name="dept" required><br>
