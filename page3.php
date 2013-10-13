@@ -3,6 +3,17 @@
 <head>
 <title>Submit Event</title>
 <link rel="stylesheet" href="styles.css"/>
+<style type="text/css" media="screen">
+body {
+	font: .75em/1.5 "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 610px;
+}
+strong {
+  background: #ffc;
+}
+</style>
 <h1>Submit Event</h1>
 </head>
 <body>
@@ -12,7 +23,7 @@
 ?>
 
 <h2> Welcome <?php echo $netid ?>!</h2>
-<p>Fill out the form exactly as specified!</p>
+<p>Please fill out the form exactly as specified.</p>
 <p>All fields are required!</p>
 
 <form action="databaseentry.php" method="post">
