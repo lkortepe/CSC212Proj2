@@ -3,22 +3,24 @@
 
 <head>
 <title>Speaker Events</title>
-<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-<div id="header"><!--contains heading and submit button-->
-<h1>Speaker Events</h1>
-<a href="page2.html">Create New Event</a>
+<div id="header1"><!--contains heading and submit button-->
+	<h1>University of Rochester Seminar Calendar</h1>
 </div>
 
-<div id="listing"><!--contains the table of events-->
+<div id="page2link">
+	<a href="page2.html">Create New Event</a>
+</div>
+
+	<div id="listing"><!--contains the table of events-->
 
 	<p><?php
 		include 'events.php';
 	?></p>
 
-</div><!--end listing div-->
-
+	</div><!--end listing div-->
 </body>
 </html>
