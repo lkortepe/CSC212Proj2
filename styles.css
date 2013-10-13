@@ -1,7 +1,71 @@
-/*CSS*/
 
+form {
+  background: #eee;
+  margin: 0 0 18px;
+  overflow: hidden;
+  padding: 0 10px;
+}
 
-  border:1;
-  border-color:#000000;
-  background-color:blue;
+fieldset {
+  background: #fff;
+  border: 2px solid #bbb;
+  margin: 18px 0 0;
+  padding: 16px 10px 16px;
+  position: relative;
+}
+
+@-moz-document url-prefix(){ fieldset {
+  margin-top: 10px;
+  padding-top: 8px;
+}}
+
+legend {
+  background: #fff;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  left: 10px;
+  padding: 0 10px;
+  position: absolute;
+  top: -.9em;
+}
+
+}
+
+input[type="text"], input[type="password"], select, textarea {
+  border: 2px solid #bbb;
+  display: block;
+  font-size: 18px;
+  height: 24px;
+  margin: 4px 0;
+  padding: 0;
+  }
+  
+textarea {
+  font-size: 14px;
+  height: 70px;
+}
+
+fieldset + p {
+  line-height: 36px;
+  margin: 0;
+}
+
+form div {
+  clear: left;
+  margin: 0 0 18px;
+  overflow: hidden;
+  padding: 0 14px 0 10px;
+}
+form div:last-child { margin: 0; }
+
+form .inline { margin-bottom: 0; }
+
+form .inline input, form .inline select {
+  float: left;
+  font-size: 14px;
+  height: 24px;
+  margin: 4px 5px 4px 0;
+  width: auto;
+}
 
