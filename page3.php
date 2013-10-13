@@ -11,7 +11,7 @@ padding: 0 10px;
 width: 610px;
 }
 strong {
-background: blue;
+background: #ffc;
 }
 </style>
 <h1><br>Submit an Event</h1>
