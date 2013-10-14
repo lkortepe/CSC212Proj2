@@ -42,10 +42,10 @@
 <legend>Description</legend> 
 <div> 
   Contact: <input type="text" name="email" value="<?php echo $netid ?>@u.rochester.edu" required><br>
-  Seminar Description: <input type="text" required></textarea><br>
+  Other Details: <input type="text" name="details" required>
 </div>
 </fieldset>
- 
+ <p>Contact the system admin to submit more information (abstract, news article, etc).</p>
 <div id="submit">  
 	<input type="submit" value="Submit">
 </div>

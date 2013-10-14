@@ -39,16 +39,16 @@ h1{
 	opacity: 0.8;
 }
 
-a{
-	
+a.events:link,a.events:visited{
+	color: blue;
 }
 
-a:link{
-	color:yellow;
+a.events:hover{
+	color: black;
 }
 
-a:visited{
-	color:yellow;
+a:link, a:visited{
+	color: yellow;
 }
 
 a:hover{

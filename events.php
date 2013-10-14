@@ -16,7 +16,18 @@
 		<th>Deptartment</th>
 		<th>Location</th>
 		<th>Contact</th>
-		<th>Details</th>
+		<th>Other Details</th>
+	</tr>
+
+	<tr>
+		<td>2013-10-01</td>
+		<td>02:30pm</td>
+		<td>Barack Obama</td>
+		<td><a href="http://en.wikipedia.org/wiki/United_States_federal_government_shutdown_of_2013" class="events">Government Shutdown</a></td>
+		<td>PSC</td>
+		<td>Hubbell</td>
+		<td>jseligman@u.rochester.edu</td>
+		<td>Furloughed if fail to attend</td>
 	</tr>
 
 <?php
