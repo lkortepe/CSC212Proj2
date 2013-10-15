@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 Author: Carolyn, Luke, Ted, Yukun, Yunping
 Contact info:csohmer@u.rochester.edu, lkortepe@gmail.com, theodore.teumer@rochester.edu,  yliu80@u.rochester.edu ,yshao9@hse.rochester.edu
 
@@ -31,11 +29,8 @@ This page is the source code of an example that shows how the details of event w
 Instructions to submit bugs, feature requests
 ----------------------------------------------
 Please email to one of the authors.
-=======
-=======
->>>>>>> 9cd17e25e2e7baa68838ce35da03da38b3d956ad
-=======
->>>>>>> 9cd17e25e2e7baa68838ce35da03da38b3d956ad
+
+
 Configuration instructions:
 
 
@@ -64,10 +59,3 @@ Credits and acknowledgements:
 
 
 A changelog:
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 9cd17e25e2e7baa68838ce35da03da38b3d956ad
-=======
->>>>>>> 9cd17e25e2e7baa68838ce35da03da38b3d956ad
-=======
->>>>>>> 9cd17e25e2e7baa68838ce35da03da38b3d956ad
