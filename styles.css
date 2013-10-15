@@ -133,3 +133,9 @@ legend {
 	color: yellow;
 	font-size: 20px;	
 }
+label.field{
+	text-align:right;
+	float:left;
+	
+
+}
