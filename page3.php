@@ -23,26 +23,26 @@
 <fieldset>
 <legend>Logistics</legend>
 <div>
-  Date (yyyy-mm-dd): <input pattern=".{10,}" type="text" name="date" required><br>
-  Time (02:00pm): <input pattern=".{7,}" type="text" name="time" required><br>
-  Location: <input type="text" name="location" required><br>
+  <label>Date (yyyy-mm-dd): </label><input pattern=".{10,}" type="text" name="date" required><br>
+  <label>Time (02:00pm): </label><input pattern=".{7,}" type="text" name="time" required><br>
+  <label>Location: </label><input type="text" name="location" required><br>
 </div>
 </fieldset>
 
 <fieldset>
 <legend>Details</legend>
 <div>  
-  Speaker: <input type="text" name="speaker" required><br>
-  Seminar Title: <input type="text" name="subject" required><br>
-  Academic Department: <input type="text" name="dept" required><br>
+  <label>Speaker: </label><input type="text" name="speaker" required><br>
+  <label>Seminar Title: </label><input type="text" name="subject" required><br>
+  <label>Academic Department: </label><input type="text" name="dept" required><br>
 </div>
 </fieldset>
 
 <fieldset>
 <legend>Description</legend> 
 <div> 
-  Contact: <input type="text" name="email" value="<?php echo $netid ?>@u.rochester.edu" required><br>
-  Other Details: <input type="text" name="details" required>
+  <label>Contact: </abel><input type="text" name="email" value="<?php echo $netid ?>@u.rochester.edu" required><br>
+  <label>Other Details: </label><input type="text" name="details" required>
 </div>
 </fieldset>
  <p>Contact the system admin to submit more information (abstract, news article, etc).</p>
