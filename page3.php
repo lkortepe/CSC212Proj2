@@ -23,29 +23,29 @@
 <fieldset>
 <legend>Logistics</legend>
 <div>
-  <label>Date (yyyy-mm-dd): </label><input pattern=".{10,}" type="text" class="txt" name="date" required><br>
-  <label>Time (02:00pm): </label><input pattern=".{7,}" type="text" class="txt" name="time" required><br>
-  <label>Location: </label><input type="text" class="txt" name="location" required><br>
+  <label class="pg3">Date (yyyy-mm-dd): </label><input pattern=".{10,}" type="text" class="txt" name="date" required><br>
+  <label class="pg3">Time (02:00pm): </label><input pattern=".{7,}" type="text" class="txt" name="time" required><br>
+  <label class="pg3">Location: </label><input type="text" class="txt" name="location" required><br>
 </div>
 </fieldset>
 
 <fieldset>
 <legend>Details</legend>
 <div>  
-  <label>Speaker: </label><input type="text" class="txt" name="speaker" required><br>
-  <label>Seminar Title: </label><input type="text" class="txt" name="subject" required><br>
-  <label>Academic Department: </label><input type="text" class="txt" name="dept" required><br>
+  <label class="pg3">Speaker: </label><input type="text" class="txt" name="speaker" required><br>
+  <label class="pg3">Seminar Title: </label><input type="text" class="txt" name="subject" required><br>
+  <label class="pg3">Department: </label><input type="text" class="txt" name="dept" required><br>
 </div>
 </fieldset>
 
 <fieldset>
 <legend>Description</legend> 
 <div> 
-  <label>Contact: </label><input type="text" class="txt" name="email" value="<?php echo $netid ?>@u.rochester.edu" required><br>
-  <label>Other Details: </label><input type="text" class="txt" name="details" required>
+  <label class="pg3">Contact: </label><input type="text" class="txt" name="email" value="<?php echo $netid ?>@u.rochester.edu" required><br>
+  <label class="pg3">Other Details: </label><input type="text" class="txt" name="details" required>
 </div>
 </fieldset>
- <p>Contact the system admin to submit more information (abstract, news article, etc).</p>
+ <p class="admin">Contact the system admin to submit more information (abstract, news article, etc).</p>
 <div id="submit">  
 	<input type="submit" value="Submit">
 </div>

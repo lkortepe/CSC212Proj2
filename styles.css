@@ -133,12 +133,25 @@ legend {
 	color: yellow;
 	font-size: 20px;	
 }
-label{
+
+label.pg2{
 	text-align:right;
 	float:left;
-	
+	width: 30%;	
 }
+
+label.pg3{
+	text-align:right;
+	float:left;
+	width: 50%;	
+
+}
+
 input.txt{
 	float:left;
-	
+	width: 50%;
+}
+
+p.admin{
+	text-align: center;
 }
