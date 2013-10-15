@@ -1,4 +1,5 @@
 <?php
+//Creates table for index page
     $con = mysql_connect("localhost", "root", "lpass");
     mysql_select_db("210proj2", $con);
 

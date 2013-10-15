@@ -1,3 +1,5 @@
+<!--PHP page with HTML base, pulls postings from MySQL database-->
+
 <!DOCTYPE html>
 <html>
 

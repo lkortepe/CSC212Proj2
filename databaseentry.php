@@ -1,4 +1,5 @@
 <?php 
+//Inserts data for new postings into MySQL database
 	$con = mysql_connect("localhost","root","lpass"); 
 	mysql_select_db("210proj2", $con);
 		
