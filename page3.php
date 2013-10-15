@@ -41,7 +41,7 @@
 <fieldset>
 <legend>Description</legend> 
 <div> 
-  <label>Contact: </abel><input type="text" name="email" value="<?php echo $netid ?>@u.rochester.edu" required><br>
+  <label>Contact: </label><input type="text" name="email" value="<?php echo $netid ?>@u.rochester.edu" required><br>
   <label>Other Details: </label><input type="text" name="details" required>
 </div>
 </fieldset>
