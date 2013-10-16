@@ -5,7 +5,6 @@
 <head>
     	<title>Submit Event</title>
 	<link rel="stylesheet" href="styles.css"/>
-
 </head>
 	
 <body>

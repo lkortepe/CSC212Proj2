@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
 <?php 
 	$netid = $_POST["netid"];
 ?>
@@ -47,10 +46,12 @@
   <label class="pg3">Other Details: </label><input type="text" class="txt" name="details" required>
 </div>
 </fieldset>
+
  <p class="admin">Contact the system admin to submit more information (abstract, news article, etc).</p>
 <div id="submit">  
 	<input type="submit" value="Submit">
 </div>
+
 </form>
 </div>
 
