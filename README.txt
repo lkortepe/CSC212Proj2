@@ -38,7 +38,7 @@ Background image for website.
 
 Instructions to submit bugs, feature requests
 ----------------------------------------------
-Please email to one of the authors with questions or bug reports.
+Please email one of the authors with questions or bug reports.
 
 
 Configuration instructions:
