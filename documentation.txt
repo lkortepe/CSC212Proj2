@@ -1,0 +1,30 @@
+Group Members: Luke Kortepeter, Carolyn Sohmer, Ted Teumer, Yukun Liu, Yunping Shao
+
+Problem Statement: Per our findings in Project 1, we found that seminars continue to have low attendance for several
+reasons. Two of these reasons, lack of knowledge about event details and failure to be alerted about events, could be
+resolved with a simple web site where all information regarding lectures can be found, all in one place.
+
+Methodology: We decided to design a web site. This allows everyone in the UofR community to see what events are taking
+place, whereas a tool such as an app would limit this valuable information to those who have smart phones. The site
+was designed to be plain and simple. Current and past events can be viwed with ease on the home page. New events can 
+be added only by those who have access based on their NetID. Acess would likely only be given to department heads, 
+secretaries, and students in the SA. This prevents abuse of the system. If further details need to be added to a
+posting, a system admin must be contacted. This prevents accidental postings of malicious links.
+
+The system stores the information in a MySQL database that is maintained by an admin. This prevents accidental deletions
+of events and/or abuses. This database will have to manually cleaned, likely once a semester, to prevent the home page
+from being too cluttered.
+
+Results:
+The site described was successfully built and is currently hosted on a private server. We are open to new ideas and how
+this foundation can be expanded.
+
+Discussion:
+We see this site as a tool the University could actually use. Currently, students are plagued by several emails a day
+announcing events. It is difficult to keep track of so many events and pay attention to so many emails. Furthermore, 
+students are often not alerted about events outside of their major department. For example, it certainly is possible that
+more than just computer science students would be interested in a lecture by Google, but if Political Science students are
+not aware of an event, they will never be able to attend.
+
+If departments took advantage of this tool and posted events and students periodically checked event postings, then no
+one would ever have a reasonable excuse for not knowing about an event.
